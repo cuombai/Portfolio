@@ -266,8 +266,56 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#" id="contactNav">Contact</a>
                 </li>
+                                            <div id="contactSection" style="display: none;">
+                              <!-- Paste your entire form and contactOptions here -->
+                                              
+
+                            <form id="websiteForm">
+                                      <div class="mb-3">
+                                        <label for="websiteType" class="form-label">Select Website Type</label>
+                                        <select class="form-select" id="websiteType" required>
+                                          <option value="">Choose one</option>
+                                          <option>Blog</option>
+                                          <option>Portfolio</option>
+                                          <option>eCommerce</option>
+                                          <option>Business Website</option>
+                                          <option>Web App</option>
+                                        </select>
+                                      </div>
+
+                                      <div class="mb-3">
+                                        <input type="text" class="form-control" placeholder="Your Name" id="userName" required>
+                                      </div>
+
+                                      <div class="mb-3">
+                                        <input type="email" class="form-control" placeholder="Your Email" id="userEmail" required>
+                                      </div>
+
+                                      <div class="form-check mb-3">
+                                        <input class="form-check-input" type="checkbox" id="termsCheck" required>
+                                        <label class="form-check-label" for="termsCheck">
+                                          I agree to the <a href="">Terms and Conditions</a> 
+                                        </label>
+                                      </div>
+
+                                      <div class="text-center">
+                                        <button type="submit" class="btn btn-dark">Proceed</button>
+                                      </div>
+                                    </form>
+
+                                    <!-- Contact Options (Hidden by Default) -->
+                                    <div id="contactOptions" class="mt-4 text-center" style="display: none;">
+                                      <p>How would you like to reach out to the developer?</p>
+                                      <button id="whatsappBtn" class="btn btn-success me-2">WhatsApp</button>
+                                      <button id="emailBtn" class="btn btn-primary me-2">Email</button>
+                                      <button id="callBtn"  class="btn btn-secondary">Call</button>
+                                    </div>
+
+                                              
+                                            </div>
+
               </ul>
             </div>
           </div>
@@ -808,7 +856,7 @@
                 <a href="blog.html" class="item-anchor">Services</a>
               </li>
               <li class="menu-item">
-                <a href="#" class="item-anchor">Contact</a>
+                <a href="/home/curtis/Portfolio/Portfolio/NetlifyWebiste/contactForm.html" class="item-anchor">Contact</a>
               </li>
             </ul>
           </div>
@@ -827,7 +875,7 @@
                 <a href="#" class="item-anchor">Prices</a>
               </li>
               <li class="menu-item">
-                <a href="#" class="item-anchor">Contact Us</a>
+                <a href="/home/curtis/Portfolio/Portfolio/NetlifyWebiste/contactForm.html" class="item-anchor">Contact Us</a>
               </li>
               <li class="menu-item">
                 <a href="index.html" class="item-anchor">Faqs</a>
@@ -875,6 +923,14 @@
     clickable: true,
   },
 });
+
+document.getElementById("contactNav").addEventListener("click", function (e) {
+  e.preventDefault();
+  document.getElementById("contactSection").style.display = "block";
+  document.getElementById("websiteForm").scrollIntoView({ behavior: "smooth" });
+});
+
+
 </script>
 </body>
 
