@@ -1540,3 +1540,17 @@ a.btn-link.text-light:after {
   background-size: cover;
   transition: transform .3s ease-out;
 }
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.horizontal-layout .collection-item {
+  flex-direction: row; /* Force horizontal alignment */
+}
+
+.column-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

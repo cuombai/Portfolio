@@ -278,83 +278,124 @@
     </div>
   </nav>
 
-  <section id="billboard" class="bg-light py-5">
-    <div class="container">
-      <div class="row justify-content-center">
-        <h1 class="section-title text-center mt-4" data-aos="fade-up">Good Graphics</h1>
-        <div class="col-md-6 text-center" data-aos="fade-up" data-aos-delay="300">
-          <p>Welcome to Good Graphics—where creativity meets precision. We specialize in crafting high-quality visual solutions that bring ideas to life. Whether it's branding, digital design, or custom graphics, we blend innovation with technical expertise to create impactful visuals tailored to your needs. At Good Graphics, we believe in designing with purpose, ensuring every pixel and detail enhances your message. Let’s transform concepts into stunning realities that captivate and inspire!</p>
-        </div>
+
+  <section id="web-dev-services" class="bg-dark text-white py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <h1 class="section-title text-center mb-4">WEB DEVELOPMENT SERVICES</h1>
+      <div class="col-md-10">
+        <table class="table table-bordered text-white text-center services-table">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">Service</th>
+              <th scope="col">Description</th>
+              <th scope="col">Ideal For</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Basic Blog Website</td>
+              <td>Simple, clean layout with blogging tools, commenting system, and mobile responsiveness.</td>
+              <td>Bloggers, Writers, Journaling</td>
+            </tr>
+            <tr>
+              <td>Personal Portfolio</td>
+              <td>Showcase your work with sleek galleries, about pages, and contact forms.</td>
+              <td>Designers, Developers, Creatives</td>
+            </tr>
+            <tr>
+              <td>Business Website</td>
+              <td>Corporate-style presence with services, testimonials, contact integrations, and SEO.</td>
+              <td>Startups, SMEs, Consultants</td>
+            </tr>
+            <tr>
+              <td>Landing Page</td>
+              <td>High-converting single-page layout for product launches or events.</td>
+              <td>Campaigns, Product Demos</td>
+            </tr>
+            <tr>
+              <td>eCommerce Website</td>
+              <td>Complete online store with shopping cart, payment gateway, inventory & product filtering.</td>
+              <td>Retail Businesses, Online Sellers</td>
+            </tr>
+            <tr>
+              <td>Custom Web Application</td>
+              <td>Advanced applications with dashboards, user management, analytics, and API integrations.</td>
+              <td>Enterprises, SaaS Platforms</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Explore More button -->
+<div class="text-center mt-4">
+  <button class="btn btn-warning text-uppercase px-4 py-2" data-bs-toggle="modal" data-bs-target="#inquiryModal">
+    Explore More
+  </button>
+</div>
+
+<!-- Modal Form -->
+<div class="modal fade" id="inquiryModal" tabindex="-1" aria-labelledby="inquiryModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-light text-dark rounded">
+      <div class="modal-header">
+        <h5 class="modal-title" id="inquiryModalLabel">Website Inquiry</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="row">
-        <div class="swiper main-swiper py-4" data-aos="fade-up" data-aos-delay="600">
-          <div class="swiper-wrapper d-flex border-animation-left">
-            <div class="swiper-slide">
-              <div class="banner-item image-zoom-effect">
-                <div class="image-holder">
-                  <a href="#">
-                    <img src="/home/curtis/GoLang/Website/NetlifyWebiste/images/pexels-kevin-ku-92347-577585.jpg" alt="product" class="img-fluid">
-                  </a>
-                </div>
-                <div class="banner-content py-4">
-                  <h5 class="element-title text-uppercase">
-                    <a href="/home/curtis/GoLang/Website/NetlifyWebiste/WebDev.html" class="item-anchor">Web Development</a>
-                  </h5>
-                  <p>we build websites that are not just visually stunning but also high-performing, user-friendly, and fully optimized for modern businesses. Whether you need a dynamic e-commerce platform, a personal portfolio, or a corporate site, our web development team ensures seamless functionality, intuitive navigation, and responsive design across all devices.</p>
-                  <div class="btn-left">
-                    <a href="WebDev.html" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="banner-item image-zoom-effect">
-                <div class="image-holder">
-                  <a href="#">
-                    <img src="/home/curtis/GoLang/Website/NetlifyWebiste/images/pexels-googledeepmind-17485707.jpg" alt="product" class="img-fluid">
-                  </a>
-                </div>
-                <div class="banner-content py-4">
-                  <h5 class="element-title text-uppercase">
-                    <a href="Logo.html" class="item-anchor">Logo, Flyer & Poster Design</a>
-                  </h5>
-                  <p>we bring ideas to life through bold, eye-catching designs that communicate your brand’s story. Whether you need a sleek logo, promotional flyers, or attention-grabbing posters, we craft visuals that leave a lasting impression.</p>
-                  <div class="btn-left">
-                    <a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="banner-item image-zoom-effect">
-                <div class="image-holder">
-                  <a href="#">
-                    <img src="/home/curtis/GoLang/Website/NetlifyWebiste/images/wmremove-transformed (003).jpeg" alt="product" class="img-fluid">
-                  </a>
-                </div>
-                <div class="banner-content py-4">
-                  <h5 class="element-title text-uppercase">
-                    <a href="UI_UX.html" class="item-anchor">UI & UX Design</a>
-                  </h5>
-                  <p>we design user interfaces that are intuitive, visually engaging, and tailored for seamless interaction. Whether for websites, mobile apps, or digital platforms, our UI & UX solutions prioritize clarity, accessibility, and user satisfaction.</p>
-                  <div class="btn-left">
-                    <a href="#" class="btn-link fs-6 text-uppercase item-anchor text-decoration-none">Discover Now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <div class="modal-body">
+        <form id="websiteForm">
+          <div class="mb-3">
+            <label for="websiteType" class="form-label">Select Website Type</label>
+            <select class="form-select" id="websiteType" required>
+              <option value="">Choose one</option>
+              <option>Blog</option>
+              <option>Portfolio</option>
+              <option>eCommerce</option>
+              <option>Business Website</option>
+              <option>Web App</option>
+            </select>
           </div>
-          <div class="swiper-pagination"></div>
+
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Your Name" id="userName" required>
+          </div>
+
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Your Email" id="userEmail" required>
+          </div>
+
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="termsCheck" required>
+            <label class="form-check-label" for="termsCheck">
+              I agree to the <a href="">Terms and Conditions</a> 
+            </label>
+          </div>
+
+          <div class="text-center">
+            <button type="submit" class="btn btn-dark">Proceed</button>
+          </div>
+        </form>
+
+        <!-- Contact Options (Hidden by Default) -->
+        <div id="contactOptions" class="mt-4 text-center" style="display: none;">
+          <p>How would you like to reach out to the developer?</p>
+          <button id="whatsappBtn" class="btn btn-success me-2">WhatsApp</button>
+          <button id="emailBtn" class="btn btn-primary me-2">Email</button>
+          <button id="callBtn"  class="btn btn-secondary">Call</button>
         </div>
-        <div class="icon-arrow icon-arrow-left"><svg width="50" height="50" viewBox="0 0 24 24">
-            <use xlink:href="#arrow-left"></use>
-          </svg></div>
-        <div class="icon-arrow icon-arrow-right"><svg width="50" height="50" viewBox="0 0 24 24">
-            <use xlink:href="#arrow-right"></use>
-          </svg></div>
       </div>
     </div>
-  </section>
+  </div>
+</div>
+
+        <!-- <div class="text-center mt-4">
+          <a href="WebDev.html" class="btn btn-warning text-uppercase px-4 py-2">Explore More</a>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+  
 
   <section class="features py-5">
     <div class="container">
@@ -366,177 +407,36 @@
 
 
   
-  <section class="collection bg-light position-relative py-5 bg-yellow horizontal-layout">
-    <!-- <img src="/home/curtis/GoLang/Website/NetlifyWebiste/images/wmremove-transformed (1).jpeg" alt="Offers"> -->
-    <div class="container">
-      <div class="row">
-        <div class="title-xlarge text-uppercase txt-fx domino">Offers</div>
-        <div class="collection-item d-flex flex-wrap my-5">
-          <!-- <div class="col-md-6 column-container">
-            <div class="image-holder">
-              <img src="/home/curtis/GoLang/Website/NetlifyWebiste/images/wmremove-transformed (1).jpeg" alt="collection" class="product-image img-fluid">
-            </div> -->
-          <!-- </div> --> 
+<section id="pricing-section" class="py-5 position-relative text-center">
+  <div class="container">
+    <h2 class="offer-banner text-uppercase mb-5">Special Offer for You – 20th June to September 30</h2>
+    <div class="row justify-content-center price-tablets">
+      <div class="col-md-3 price-tablet bg-black text-gold z-3">
+        <h4 class="price-heading">BASIC</h4>
+        <div class="price-tag">$300</div>
+        <p>Starter site with up to 3 pages, responsive layout, contact form integration, and basic SEO setup.</p>
+      </div>
 
-          <div class="row justify-content-center">
-  <div class="col-md-8">
-    <div class="collection-content p-5 m-0 m-md-5 bg-white text-center">
-     <h3 class="element-title text-uppercase">🎉 Special Offer: Elevate Your Brand with Good Graphics!</h3>
-              <p>For a limited time, Good Graphics is offering an exclusive 25% discount on all branding packages, web development, and UI/UX design services!
-<p>What’s Included?</p> <p>Custom Logo Design – A unique identity tailored to your brand.</p><p> Responsive Website Development – High-performance & mobile-friendly.</p> <p> Professional UI/UX Design – Intuitive, user-centered interfaces.</p><p>Eye-Catching Flyers & Posters – Designed to make an impact.</p>
+      <div class="col-md-3 price-tablet bg-sky text-white z-2">
+        <h4 class="price-heading">HOURLY</h4>
+        <div class="price-tag">$45 per Hour</div>
+        <p>Pay-as-you-go development service—ideal for one-time tweaks, debugging, or feature updates.</p>
+      </div>
 
-<p>Bonus: Get free consultation on your project when you sign up today!</p>
+      <div class="col-md-3 price-tablet bg-grey text-gold z-1">
+        <h4 class="price-heading">FULL PACKAGE</h4>
+        <div class="price-tag">Starting from $650</div>
+        <p>Complete branding and website solution including logo design, full website, and deployment support.</p>
+      </div>
 
-<p>📅 Offer expires soon! Don't miss your chance to transform your brand with Good Graphics at an unbeatable price.</p>
-      <a href="#" class="btn btn-dark text-uppercase mt-3">REACH OUT TODAY</a>
-    </div>
-  </div>
-</div>
-
-
-<!-- 
-          <div class="col-md-6 column-container bg-white">
-            <div class="collection-content p-5 m-0 m-md-5">
-              
-              <a href="#" class="btn btn-dark text-uppercase mt-3">REACH OUT TODAY</a>
-            </div>
-          </div> -->
-        </div>
+      <div class="col-md-3 price-tablet bg-white text-black z-0">
+        <h4 class="price-heading">BUILD ALONG</h4>
+        <div class="price-tag">$200 per Day</div>
+        <p>Collaborative build—a learning-focused experience where you co-create your site with our guidance.</p>
       </div>
     </div>
-  </section>
-
-
-  <!-- <section class="testimonials py-5 bg-light">
-    <div class="section-header text-center mt-5">
-      <h3 class="section-title">WE LOVE GOOD COMPLIMENT</h3>
-    </div>
- 
-
-    <div class="swiper testimonial-swiper overflow-hidden my-5">
-      <div class="swiper-wrapper d-flex">
-        
-      </div>
-         Arrows
-<div class="swiper-button-prev"></div>
-<div class="swiper-button-next"></div>
-
-    </div>
-    <div class="testimonial-swiper-pagination d-flex justify-content-center mb-5"></div>
-  </section> -->
-
-
-
-<!-- <section class="testimonials py-5 bg-light">
-  <div class="section-header text-center mt-5">
-    <h3 class="section-title">WE LOVE GOOD COMPLIMENT</h3>
   </div>
-
-  <div class="swiper testimonial-swiper overflow-hidden my-5">
-    <div class="swiper-wrapper d-flex">
-     Slides here 
-       <div class="swiper-slide">
-          <div class="testimonial-item text-center">
-            <blockquote>
-              <p>"Good Graphics transformed my online store into a sleek, responsive website that makes shopping effortless for my customers. The team understood my vision, optimized every detail for performance, and delivered a design that feels both modern and user-friendly. Sales have skyrocketed since launching—thank you!"</p>
-              <div class="review-title text-uppercase">James K. – E-Commerce Owner</div>
-            </blockquote>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item text-center">
-            <blockquote>
-              <p>"I needed a personal website to showcase my work, but I had no idea where to start. Good Graphics guided me through the process, creating a stunning, professional design that perfectly represents my brand. Their attention to detail and seamless integration of interactive elements made my portfolio stand out!"</p>
-              <div class="review-title text-uppercase">Sarah M. – Portfolio Website</div>
-            </blockquote>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item text-center">
-            <blockquote>
-              <p>"I entrusted Good Graphics with my entire branding—from logo design to web presence and social media assets. The result? A cohesive, stunning brand identity that exudes professionalism and creativity. Their approach was strategic and thoughtful, and the final product surpassed all expectations!"</p>
-              <div class="review-title text-uppercase">Emily R. – Mobile App Developer</div>
-            </blockquote>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item text-center">
-            <blockquote>
-              <p>"I entrusted Good Graphics with my entire branding—from logo design to web presence and social media assets. The result? A cohesive, stunning brand identity that exudes professionalism and creativity. Their approach was strategic and thoughtful, and the final product surpassed all expectations!"</p>
-              <div class="review-title text-uppercase">David L. – Startup Founder</div>
-            </blockquote>
-          </div>
-        </div>
-    </div>
-
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-  </div>
-
-  <div class="testimonial-swiper-pagination d-flex justify-content-center mb-5"></div>
-</section> -->
-
-<section class="testimonials-section">
-  <div class="section-header text-center">
-    <h3 class="section-title">WE LOVE GOOD COMPLIMENT</h3>
-  </div>
-  
-  <div class="testimonial-container">
-    <button class="nav-button" onclick="showPrevious()">❮</button>
-
-    <div class="testimonial" id="testimonial">
-      <blockquote>
-        <p id="testimonial-text"></p>
-        <div id="testimonial-author" class="review-title text-uppercase"></div>
-      </blockquote>
-    </div>
-
-    <button class="nav-button" onclick="showNext()">❯</button>
-  </div>
-      <script>
-            const testimonials = [
-            {
-              text: `"Good Graphics transformed my online store into a sleek, responsive website that makes shopping effortless for my customers..."`,
-              author: "James K. – E-Commerce Owner"
-            },
-            {
-              text: `"I needed a personal website to showcase my work... Their attention to detail and seamless integration of interactive elements made my portfolio stand out!"`,
-              author: "Sarah M. – Portfolio Website"
-            },
-            {
-              text: `"I entrusted Good Graphics with my entire branding... A cohesive, stunning brand identity that exudes professionalism and creativity."`,
-              author: "Emily R. – Mobile App Developer"
-            },
-            {
-              text: `"Their approach was strategic and thoughtful, and the final product surpassed all expectations!"`,
-              author: "David L. – Startup Founder"
-            }
-          ];
-
-          let currentIndex = 0;
-
-          function updateTestimonial() {
-            const quote = testimonials[currentIndex];
-            document.getElementById("testimonial-text").textContent = quote.text;
-            document.getElementById("testimonial-author").textContent = quote.author;
-          }
-
-          function showPrevious() {
-            currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
-            updateTestimonial();
-          }
-
-          function showNext() {
-            currentIndex = (currentIndex + 1) % testimonials.length;
-            updateTestimonial();
-          }
-
-          // Initialize on page load
-          window.onload = updateTestimonial;
-    </script>
 </section>
-
-
 
 
 
@@ -826,6 +726,46 @@
   },
 });
 </script>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+  const websiteSelect = document.getElementById("websiteType");
+
+  document.getElementById("websiteForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    document.getElementById("websiteForm").style.display = "none";
+    document.getElementById("contactOptions").style.display = "block";
+  });
+
+  document.getElementById("whatsappBtn").addEventListener("click", () => {
+    const type = websiteSelect.value || "Website Inquiry";
+    const message = encodeURIComponent(`Hello, I'm interested in a ${type} site from your offer.`);
+    window.open(`https://wa.me/254746881441?text=${message}`, "_blank");
+  });
+
+  document.getElementById("emailBtn").addEventListener("click", () => {
+    const type = websiteSelect.value || "Website Inquiry";
+    const subject = encodeURIComponent(`${type} Website Inquiry`);
+    const body = encodeURIComponent(`Hi, I'm interested in a ${type} website. Please provide more details.`);
+    window.location.href = `mailto:curtisombai@gmail.com?subject=${subject}&body=${body}`;
+  });
+
+  document.getElementById("callBtn").addEventListener("click", () => {
+    const isMobile = /Mobi|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+      window.location.href = "tel:+254746881441";
+    } else {
+      alert("Call us at +254 746 88 1441");
+    }
+  });
+});
+
+</script>
+
+
+
+
 </body>
 
 </html>
